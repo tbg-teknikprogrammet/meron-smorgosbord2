@@ -1,0 +1,171 @@
+body {
+    background: #b8ae2563;
+}
+
+.wrapper {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    width: 90%;
+}
+
+#grid-item1 {
+    background: #1ae9654d;
+    border-radius: 5px ;
+    width: 400px;
+    height: 270px;
+    
+}
+
+.grid-item2 {
+    border-radius: 5px;
+    width:400px;
+    height: 270px;
+}
+
+.grid-item3 {
+    border-radius: 5px ;
+    width: 400px;
+    height: 270px;
+    list-style: none;
+    display: block;
+}
+
+.slideshow {
+    visibility: ;
+}
+
+.left {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.right {
+    font-size: 40px;
+}
+
+
+.grid-item4 {
+    width: 400px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e9f228c;
+}
+
+.grid-item5 {
+    border: solid  black;
+    width: 400px;
+    height:270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #39dd6d94;
+}
+
+.grid-item6 {
+    border: solid 1px black;
+    width: 400px;
+    height: 270px;
+    background: #15d965;
+}
+
+
+
+/* score game */
+
+.headline {
+    margin-left: 40%;
+}
+
+.player {
+    padding: 50px;
+}
+h3 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+div {
+    margin: 5px; 
+}
+
+#tentacles {
+    width: 80px;
+}
+
+
+.bigsize{
+    visibility: hidden;
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+
+.back {
+    position: absolute;
+    color: red;
+    font-size: 50px;
+    top: 0;
+}
+
+.mySlides {display:none;}
+
+
+
+*{
+    box-sizing: border-box;
+  }
+  .img-slide {
+    width: 40%;
+    height: 73%;
+    overflow: hidden;
+    border:  5px solid black; 
+  }
+  
+  #big img{
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+  }
+  
+  #sub img {
+    width: 25%;
+    height: 100px;
+    border: 2px solid black;
+    float: left;
+    opacity: .7;
+    cursor: pointer;
+  }
+
+
+.lef-rig {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#change-color {
+    border: solid 1px black;
+    margin-left: 46%;
+    background: #b8ae2563;
+    cursor: pointer;
+}
+
+ #body.color {
+    background: rgba(47, 119, 47, 0.151);
+ }
+
+ #show-more {
+     border: solid 1px black;
+     background: #00ff0a6e;
+     cursor: pointer;
+     font-size: 20px;
+ }
+
+
+ #klockan {
+    font-size: 50px;
+ }
+

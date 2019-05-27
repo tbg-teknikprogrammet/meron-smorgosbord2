@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/playground.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body id="body">
+    <div class="wrapper">
+
+        <!-- item 1-->
+        <section id="grid-item1">
+            <section id="myForm">
+                <h1><span id="p1Score">0</span> to <span id="p2Score">0</span></h1>
+                <h3>Playing to: <span id="ScoreToWin">5</span></h3>
+                <input id="raound" type="number" value="5">
+                <button id="player 1">Player 1</button>
+                <button id="player 2">Player 2</button>
+                <button id="reset">Reset</button>
+            </section>
+        </section>
+<!-- mm -->
+
+        <!-- item 2-->
+        <section class="bigsize">
+            <a href="#" class="back"><i class="fas fa-times"></i></a>
+            <img src="assets/onepiece.jpg">
+        </section>
+
+        <section class="grid-item2" id="mymodal">
+            <img class="smallsize" id="img01" src="assets/one-piece1.jpg">
+        </section>
+
+
+        <!-- item 3-->
+        <section class="grid-item3">
+            <div>
+                <img src="assets/img1.jpg" id="slides" width="390px" height="230px">
+                <div class="lef-rig">
+                    <button onclick = "slidesShowLeft()"><i class="fas fa-chevron-left"></i></button>
+                    <button onclick = "slidesShowRight()"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- item 4-->
+        <section class="grid-item4">
+            <button><a id="show-more">Change-Background-Color</a></button>
+        </section>
+
+        <!-- item 5-->
+        <section class="grid-item5">
+
+            <body onload="starttid()">
+            <div id="klockan"></div>
+        </section>
+
+
+        <!-- item 6-->
+        <section class="grid-item6">
+            <h1>Miniräknare</h1>
+            <input type="text" id="n1"/><br/><br/>
+            <input type="text" id="n2"/><br/><br/>
+            
+            <select id="operators">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="X">X</option>
+            </select>
+            
+            <button onclick="kalc();">=</button>
+            <input type="text" id="result"/>
+           
+        </section>
+
+    </div>
+
+
+    <script src="assets/playground.js"></script>
+</body>
+</html>
